@@ -60,7 +60,6 @@ class CKEditor extends InputWidget{
         $options['removePlugins'] = 'elementspath';
         $options['resize_enabled'] = false;
 
-
         $this->editorOptions = ArrayHelper::merge($options, $this->editorOptions);
     }
 
